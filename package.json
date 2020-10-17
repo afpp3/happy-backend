@@ -2,13 +2,13 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "start": "node dist/server.js",
     "dev": "tsnd --transpile-only --ignore-watch node_modules src/server.ts",
     "build": "tsc",
     "typeorm": "tsnd ./node_modules/typeorm/cli.js"
   },
-  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
